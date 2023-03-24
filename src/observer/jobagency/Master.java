@@ -1,6 +1,6 @@
 package observer.jobagency;
 
-// Профи, ищет хорошую работу
+// РџСЂРѕС„Рё, РёС‰РµС‚ С…РѕСЂРѕС€СѓСЋ СЂР°Р±РѕС‚Сѓ
 public class Master implements Observer {
     String name;
 
@@ -8,7 +8,7 @@ public class Master implements Observer {
         this.name = name;
     }
 
-    // Профессионалы выбирают хорошую работу
+    // РџСЂРѕС„РµСЃСЃРёРѕРЅР°Р»С‹ РІС‹Р±РёСЂР°СЋС‚ С…РѕСЂРѕС€СѓСЋ СЂР°Р±РѕС‚Сѓ
     @Override
     public void receiveOffer(String nameCompany, int salary) {
         if (salary < 80){

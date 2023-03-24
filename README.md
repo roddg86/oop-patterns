@@ -30,3 +30,5 @@ https://docs.google.com/presentation/d/1PtxyZm75R9EOwHP9FSLXxx8JmWL1gnoVy7HqQHeb
 
 1:36:42 Билдер
 
+1:54 Обсервер (event) паттерн наблюдатель, это тот же MVVM паттерн 2:16
+

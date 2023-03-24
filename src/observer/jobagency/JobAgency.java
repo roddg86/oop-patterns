@@ -3,10 +3,10 @@ package observer.jobagency;
 import java.util.ArrayList;
 import java.util.List;
 
-// Реализация рассылки сообщений
+// Р РµР°Р»РёР·Р°С†РёСЏ СЂР°СЃСЃС‹Р»РєРё СЃРѕРѕР±С‰РµРЅРёР№
 public class JobAgency implements Publisher {
 
-    // список наблюдателей
+    // СЃРїРёСЃРѕРє РЅР°Р±Р»СЋРґР°С‚РµР»РµР№
     List<Observer> observers = new ArrayList<>();
 
     @Override
@@ -19,7 +19,7 @@ public class JobAgency implements Publisher {
         observers.remove(observer);
     }
 
-    // Разослать предложения
+    // Р Р°Р·РѕСЃР»Р°С‚СЊ РїСЂРµРґР»РѕР¶РµРЅРёСЏ
     @Override
     public void sendOffer(String nameCompany, int salary) {
         for (Observer observer : observers){

@@ -2,7 +2,7 @@ package observer.jobagency;
 
 public class Main {
 
-    // Добавить нового наблюдателя, например Specialist, который будет наблюдать за Company
+    // Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІРѕРіРѕ РЅР°Р±Р»СЋРґР°С‚РµР»СЏ, РЅР°РїСЂРёРјРµСЂ Specialist, РєРѕС‚РѕСЂС‹Р№ Р±СѓРґРµС‚ РЅР°Р±Р»СЋРґР°С‚СЊ Р·Р° Company
     public static void main(String[] args) {
         Publisher jobAgency = new JobAgency();
         Company google = new Company(jobAgency, "Google", 50);

@@ -1,6 +1,6 @@
 package observer.jobagency;
 
-// Студент, цепляется за любую работу, которая лучше текущей
+// РЎС‚СѓРґРµРЅС‚, С†РµРїР»СЏРµС‚СЃСЏ Р·Р° Р»СЋР±СѓСЋ СЂР°Р±РѕС‚Сѓ, РєРѕС‚РѕСЂР°СЏ Р»СѓС‡С€Рµ С‚РµРєСѓС‰РµР№
 public class Student implements Observer {
     String name;
     int salary;
@@ -10,7 +10,7 @@ public class Student implements Observer {
         salary = 0;
     }
 
-    // Студент постоянно ищет где лучше
+    // РЎС‚СѓРґРµРЅС‚ РїРѕСЃС‚РѕСЏРЅРЅРѕ РёС‰РµС‚ РіРґРµ Р»СѓС‡С€Рµ
     @Override
     public void receiveOffer(String nameCompany, int salary) {
         if (this.salary < salary) {

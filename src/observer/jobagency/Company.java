@@ -2,14 +2,14 @@ package observer.jobagency;
 
 import java.util.Random;
 
-// Это компания, которая нуждается в сотрудниках, она будет давать команду агенству
+// Р­С‚Рѕ РєРѕРјРїР°РЅРёСЏ, РєРѕС‚РѕСЂР°СЏ РЅСѓР¶РґР°РµС‚СЃСЏ РІ СЃРѕС‚СЂСѓРґРЅРёРєР°С…, РѕРЅР° Р±СѓРґРµС‚ РґР°РІР°С‚СЊ РєРѕРјР°РЅРґСѓ Р°РіРµРЅСЃС‚РІСѓ
 public class Company {
     Publisher jobAgency;
     String nameCompany;
     Random rnd;
     int maxSalary;
 
-    // компания работает с определенным агенством
+    // РєРѕРјРїР°РЅРёСЏ СЂР°Р±РѕС‚Р°РµС‚ СЃ РѕРїСЂРµРґРµР»РµРЅРЅС‹Рј Р°РіРµРЅСЃС‚РІРѕРј
     public Company(Publisher jobAgency, String nameCompany, int maxSalary){
         this.jobAgency = jobAgency;
         this.nameCompany = nameCompany;
