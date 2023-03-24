@@ -11,27 +11,27 @@ public class CalculatorView {
 
     public void run() {
         while (true) {
-            int primaryArg = promptInt("Введите первый аргумент: ");
+            int primaryArg = promptInt("Р’РІРµРґРёС‚Рµ РїРµСЂРІС‹Р№ Р°СЂРіСѓРјРµРЅС‚: ");
             Calculable calculator = calculableFactory.create(primaryArg);
             while (true) {
-                String cmd = prompt("Введите команду (*, +, =) : ");
+                String cmd = prompt("Р’РІРµРґРёС‚Рµ РєРѕРјР°РЅРґСѓ (*, +, =) : ");
                 if (cmd.equals("*")) {
-                    int arg = promptInt("Введите второй аргумент: ");
+                    int arg = promptInt("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕР№ Р°СЂРіСѓРјРµРЅС‚: ");
                     calculator.multi(arg);
                     continue;
                 }
                 if (cmd.equals("+")) {
-                    int arg = promptInt("Введите второй аргумент: ");
+                    int arg = promptInt("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕР№ Р°СЂРіСѓРјРµРЅС‚: ");
                     calculator.sum(arg);
                     continue;
                 }
                 if (cmd.equals("=")) {
                     int result = calculator.getResult();
-                    System.out.printf("Результат %d\n", result);
+                    System.out.printf("Р РµР·СѓР»СЊС‚Р°С‚ %d\n", result);
                     break;
                 }
             }
-            String cmd = prompt("Еще посчитать (Y/N)?");
+            String cmd = prompt("Р•С‰Рµ РїРѕСЃС‡РёС‚Р°С‚СЊ (Y/N)?");
             if (cmd.equals("Y")) {
                 continue;
             }
