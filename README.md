@@ -28,3 +28,5 @@ https://docs.google.com/presentation/d/1PtxyZm75R9EOwHP9FSLXxx8JmWL1gnoVy7HqQHeb
 
 1:29 Соблюдается принцип открытости закрытости с помощью Декоратора, зачем нужен декоратор
 
+1:36:42 Билдер
+
