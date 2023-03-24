@@ -32,3 +32,9 @@ https://docs.google.com/presentation/d/1PtxyZm75R9EOwHP9FSLXxx8JmWL1gnoVy7HqQHeb
 
 1:54 Обсервер (event) паттерн наблюдатель, это тот же MVVM паттерн 2:16
 
+2:30 функциональные интерфейсы Map замена switch 
+
+2:35 тестовое собеседование - 2:52 затемнение метода
+
+3:26 ДЗ
+
